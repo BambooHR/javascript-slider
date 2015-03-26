@@ -5,7 +5,7 @@ This assignment is to build a re-usable horizontal slider control in HTML/Javasc
 Here are the requirements:
 
 1. Make a fork of this repository and implement your changes there.
-2. The control must have call backs (or promises) that will run when the slider is repositioned.
+2. The control must have a way to register call backs that will run when the slider is repositioned.
 3. The control must have a method of obtaining the current value of the slider.
 4. When positioning, the control must support snapping to the next integer.  A 200 pixel wide slider configured for values ranging from 0-9 would snap in increments of 20 pixels.
 5. Create a document targeted to other programmers describing how to configure and use the slider.
